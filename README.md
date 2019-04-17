@@ -5,12 +5,12 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 This project aims to build a Postgres database model with current song library and the users' log.
 
 ## How to run the python scripts
-1. Download and install **Postgres** on your machine by following official document with your respective OS system. There are three versions of postgres you can install including: Interactive installer by EnterproseDB, Graphical installer by BigSQL or Postgres.app. If you are a command line coder, go with Postgres.app; else the gphical installer is easier to begin with. Download and instruction here: [Postgres Download](https://www.postgresql.org/download)
+1. Download and install **Postgres** on your machine by following official document with your respective OS system. There are three versions of postgres you can install including: Interactive installer by EnterproseDB, Graphical installer by BigSQL or Postgres.app. If you are a command line coder, go with Postgres.app; else the graphical installer is easier to begin with. Download and instruction here: [Postgres Download](https://www.postgresql.org/download)
 
-2. Setup account (user: student, psw: studen) for this project. It is straight forward with the graphical one as below screenshot.
+2. Setup account (user: *student*, psw: *student*) for this project. It is straight forward with the friendly UI as below screenshot.
 ![User Setup](/images/UserSetup.png)
 
-3. Run `python create_tables.py` to drop all existing tables required for this project (if any), then create them again with blank data.
+3. Run `python create_tables.py` to drop all existing tables required for this project, then create them again with blank data.
 
 4. Run `python etl.py` to load data from song data and log data into created tables in step 3.
 
